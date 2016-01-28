@@ -25,4 +25,6 @@ rm *- remove all files in respository folder
 mkdir -make
 rmdir -remove
 python...- open the file in website
+Control D exit python
+need quotation to print 
 
