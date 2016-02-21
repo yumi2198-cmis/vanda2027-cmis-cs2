@@ -25,8 +25,8 @@ def avg_volume (a, b):
     return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 
 def area(a,b,c):
-    s= (a+b+c) / 2 
-    return (s*(s - a) * (s - b) * (s - c)) ** 0.5
+	s= (a+b+c) / 2 
+	return (s*(s - a) * (s - b) * (s - c)) ** 0.5
 
 
 def right_align (word):
@@ -70,10 +70,10 @@ d1 = avg_volume (10,20)
 print d1
 d2 = avg_volume (20,21)
 print d2
-f1= area (1.0,2.0,4.0)
-print f1
-f2= area (1.0,2.0,5.0)
-print f2
+area1= area (1.0,2.0,4.0)
+print area1
+area2= area (1.0,2.0,5.0)
+print area2
 e1= right_align ("Waddup")
 print e1
 e2= right_align ("Hello")
@@ -106,8 +106,8 @@ print msg_box (str(b1))
 print msg_box (str(b2))
 print msg_box (str(d1))
 print msg_box (str(d2))
-print msg_box (str(f1))
-print msg_box (str(f2))
+print msg_box (str(area1))
+print msg_box (str(area2))
 print msg_box (str(e1))
 print msg_box (str(e2))
 print msg_box (str(g1))
