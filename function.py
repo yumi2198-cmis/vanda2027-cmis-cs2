@@ -1,41 +1,41 @@
-def add(a,b):
+def add(a,b): #define the functions by adding
 	return a+b
 
-def sub (x,y):
+def sub (x,y):#define the fuctions by subtracting
 	return x-y
 
-def mul(e,f):
+def mul(e,f):#define the fuctions by multiplying
 	return e*f
 
-def div (j,k):
+def div (j,k):#define the fuctions by diving 
 	return (j/k)
 
-def hours_from_seconds (a):
+def hours_from_seconds (a):#define the fuctions to fine number of seconds in an hour
     return a / 3600
 
 import math
-def circle_area (a):
+def circle_area (a): #define the area of the circle by using math.pi
     return math.pi * (a**2)
 
-def sphere_volume (a):
+def sphere_volume (a): #define the fuctions to find the volume of a sphere
     return 1.33333333333 * 3.14159265359 * (a**3)
 
-def avg_volume (a, b):
+def avg_volume (a, b):#define the fuctions to fine the average volume
    
     return ((1.0/6 * math.pi * a**3) + (1.0/6 * math.pi * b**3)) /2
 
-def area(a,b,c):
+def area(a,b,c): #define the fuctions to find the area of a circle
 	s= (a+b+c) / 2 
 	return (s*(s - a) * (s - b) * (s - c)) ** 0.5
 
 
-def right_align (word):
+def right_align (word):#this will right align the message
     return (80-len(word))*(" ") + word
 
-def center (word):
+def center (word):#this will center the message
     return (40-len(word))*(" ")+word
 
-def msg_box (word):
+def msg_box (word): #this will put the message in a box
     return "+" + ((len(word)+4)*"-") + "+" + "\n" + "|" + (2*" ") + (word)+ (2*" ") + "|" + "\n" + "+" + ((len(word)+4)*"-") + "+"
 
 c1= add (3,4)
@@ -70,9 +70,9 @@ d1 = avg_volume (10,20)
 print d1
 d2 = avg_volume (20,21)
 print d2
-area1= area (1.0,2.0,4.0)
+area1= area (3.0,2.0,4.0)
 print area1
-area2= area (1.0,2.0,5.0)
+area2= area (5.0,2.0,5.0)
 print area2
 e1= right_align ("Waddup")
 print e1
